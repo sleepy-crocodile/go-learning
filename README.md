@@ -20,3 +20,6 @@ Run the following command to build binary
 ```bash
 go build
 ```
+
+## Data types
+[Readme](./docs/dataTypes.md)
