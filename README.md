@@ -21,5 +21,7 @@ Run the following command to build binary
 go build
 ```
 
-## Data types
-[Readme](./docs/dataTypes.md)
+## Documentations
+- [Data Types](./docs/dataTypes.md)
+- [Airthmetic Operation](./docs/airthmeticOperation.md)
+- [Operator Precisions](./docs/operatorPrecision.md)

@@ -66,3 +66,18 @@ fmt.Println(message)    //  ""
 fmt.Println(isTrue)     //  false
 fmt.Println(number)     //  0
 ```
+## Exceeding limits of data types:
+When the value assigned to a data type exceeds its limit, the value wraps around due to overflow.
+```gotemplate
+var smallInt int8 = 100
+fmt.Println(smallInt + 28) // -128
+
+var smallInt int8 = 100
+fmt.Println(smallInt + 29)  // -127
+
+var smallInt int8 = -127
+fmt.Println(smallInt - 1)  // -128
+
+var smallInt int8 = -127
+fmt.Println(smallInt - 2)  // 127
+```
