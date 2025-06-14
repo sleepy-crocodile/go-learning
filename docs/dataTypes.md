@@ -1,20 +1,20 @@
 # Variable Declaration
 ## Option 1
 Strictly declartion
-```gotemplate
+```go
 var <variableName> <type>
 <variableName> = <value>
 ```
 
 ## Option 2
 Loose declaration
-```gotemplate
+```go
 var <variableName> = <value>
 ```
 In this way goLang compiler will automatically detect that which type of data type will be right for the assignment.
 
 ## Option 3 (Preferred)
-```gotemplate
+```go
 <variableName> := <value>
 ```
 
@@ -57,7 +57,7 @@ Default value differse for each data type.
 |bool|false|
 
 Example snippet:
-```gotemplate
+```go
 var message string
 var isTrue bool
 var number int
@@ -68,7 +68,7 @@ fmt.Println(number)     //  0
 ```
 ## Exceeding limits of data types:
 When the value assigned to a data type exceeds its limit, the value wraps around due to overflow.
-```gotemplate
+```go
 var smallInt int8 = 100
 fmt.Println(smallInt + 28) // -128
 
